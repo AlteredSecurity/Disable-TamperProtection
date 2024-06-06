@@ -1,0 +1,57 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\GITMUM\\TamperProtection-Company\\Disable-TamperProtection\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E192C3DF-AE34-4E32-96BA-3D6B56EA76A4}|Disable-TamperProtection.vcxproj|D:\\GITMUM\\TamperProtection-Company\\Disable-TamperProtection\\Disable-TamperProtection.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{E192C3DF-AE34-4E32-96BA-3D6B56EA76A4}|Disable-TamperProtection.vcxproj|solutionrelative:Disable-TamperProtection.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E192C3DF-AE34-4E32-96BA-3D6B56EA76A4}|Disable-TamperProtection.vcxproj|D:\\GITMUM\\TamperProtection-Company\\Disable-TamperProtection\\tokens.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{E192C3DF-AE34-4E32-96BA-3D6B56EA76A4}|Disable-TamperProtection.vcxproj|solutionrelative:tokens.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Disable-TamperProtection.cpp",
+              "DocumentMoniker": "D:\\GITMUM\\TamperProtection-Company\\Disable-TamperProtection\\Disable-TamperProtection.cpp",
+              "RelativeDocumentMoniker": "Disable-TamperProtection.cpp",
+              "ToolTip": "D:\\GITMUM\\TamperProtection-Company\\Disable-TamperProtection\\Disable-TamperProtection.cpp",
+              "RelativeToolTip": "Disable-TamperProtection.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-03-29T10:03:09.287Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "tokens.h",
+              "DocumentMoniker": "D:\\GITMUM\\TamperProtection-Company\\Disable-TamperProtection\\tokens.h",
+              "RelativeDocumentMoniker": "tokens.h",
+              "ToolTip": "D:\\GITMUM\\TamperProtection-Company\\Disable-TamperProtection\\tokens.h",
+              "RelativeToolTip": "tokens.h",
+              "ViewState": "AQIAAAoAAAAAAAAAAABRwA4AAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-03-29T10:03:09.415Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
